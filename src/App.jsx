@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <CustomTest />
-      <JSONFileViewer />
+      {/* <JSONFileViewer /> */}
     </div>
   );
 }

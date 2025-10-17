@@ -1,0 +1,4 @@
+{
+  "question": "Find $gof$ and $fog$, if $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ are given by $f(x) = \\cos x$ and $g(x) = 3x^2$. Show that $gof \\neq fog$.",
+  "solution": "We have $gof(x) = g(f(x)) = g(\\cos x) = 3(\\cos x)^2 = 3 \\cos^2 x$.\n\nSimilarly, $fog(x) = f(g(x)) = f(3x^2) = \\cos (3x^2)$.\n\nNote that $3\\cos^2 x \\neq \\cos 3x^2$, for $x = 0$.\n\nHence, $gof \\neq fog$."
+}

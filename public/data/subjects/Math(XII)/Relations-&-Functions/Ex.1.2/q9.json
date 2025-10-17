@@ -1,0 +1,4 @@
+{
+  "question": "Show that the Signum Function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, given by\n$$f(x)=\\begin{cases}1,&\\text{if } x>0\\\\0,&\\text{if } x=0\\\\-1,&\\text{if } x<0\\end{cases}$$\nis neither one-one nor onto.",
+  "solution": "$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is given by,\n$$f(x)=\\begin{cases}1,&\\text{if } x>0\\\\0,&\\text{if } x=0\\\\-1,&\\text{if } x<0\\end{cases}$$\n\nIt is seen that $f(1) = f(2) = 1$, but $1 \\neq 2$.\n\n$\\therefore f$ is not one-one.\n\nNow, as $f(x)$ takes only $3$ values $(1, 0, \\text{ or } -1)$ for the element $-2$ in co-domain $\\mathbb{R}$, there does not exist any $x$ in domain $\\mathbb{R}$ such that $f(x) = -2$.\n\n$\\therefore f$ is not onto.\n\nHence, the signum function is neither one-one nor onto."
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Let $A$ be the set of all students of a boys school. Show that the relation $R$ in $A$ given by $R = \\{(a, b) : a \\text{ is sister of } b\\}$ is the empty relation and $R' = \\{(a, b) : \\text{the difference between heights of } a \\text{ and } b \\text{ is less than 3 meters}\\}$ is the universal relation.",
+  "solution": "Since the school is a boys school, no student of the school can be sister of any student of the school.\n\nHence, $R = \\phi$, showing that $R$ is the empty relation.\n\nIt is also obvious that the difference between heights of any two students of the school has to be less than 3 meters.\n\nThis shows that $R' = A \\times A$ is the universal relation."
+}

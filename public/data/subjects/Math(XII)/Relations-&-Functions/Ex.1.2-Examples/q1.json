@@ -1,0 +1,4 @@
+{
+  "question": "Let $A$ be the set of all $50$ students of Class X in a school. Let $f: A \\rightarrow \\mathbb{N}$ be function defined by $f(x) = \\text{roll number of the student } x$. Show that $f$ is one-one but not onto.",
+  "solution": "No two different students of the class can have same roll number. Therefore, $f$ must be one-one.\n\nWe can assume without any loss of generality that roll numbers of students are from $1$ to $50$. This implies that $51$ in $\\mathbb{N}$ is not roll number of any student of the class, so that $51$ can not be image of any element of $A$ under $f$. Hence, $f$ is not onto."
+}

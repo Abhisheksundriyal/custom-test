@@ -1,0 +1,21 @@
+/* src/components/JSONFileViewer.css */
+
+.json-file-viewer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.json-file-viewer select,
+.json-file-viewer button {
+  margin: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.question-output {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}

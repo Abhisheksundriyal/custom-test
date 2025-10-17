@@ -1,0 +1,4 @@
+{
+  "question": "Prove that the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, given by $f(x) = 2x$, is one-one and onto.",
+  "solution": "$f$ is one-one, as $f(x_1) = f(x_2) \\Rightarrow 2x_1 = 2x_2 \\Rightarrow x_1 = x_2$. \n\nAlso, given any real number $y$ in $\\mathbb{R}$, there exists $\\frac{y}{2}$ in $\\mathbb{R}$ such that $f\\left(\\frac{y}{2}\\right) = 2 \\cdot \\left(\\frac{y}{2}\\right) = y$. \n\nHence, $f$ is onto."
+}

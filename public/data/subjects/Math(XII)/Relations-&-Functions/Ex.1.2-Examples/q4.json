@@ -1,0 +1,4 @@
+{
+  "question": "Show that the function $f: \\mathbb{N} \\rightarrow \\mathbb{N}$, given by $f(1) = f(2) = 1$ and $f(x) = x - 1$, for every $x > 2$, is onto but not one-one.",
+  "solution": "$f$ is not one-one, as $f(1) = f(2) = 1$. \n\nBut $f$ is onto, as given any $y \\in \\mathbb{N}, y \\neq 1$, we can choose $x$ as $y + 1$ such that $f(y + 1) = y + 1 - 1 = y$. \n\nAlso for $1 \\in \\mathbb{N}$, we have $f(1) = 1$."
+}

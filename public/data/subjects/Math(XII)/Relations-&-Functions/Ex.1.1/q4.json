@@ -1,0 +1,4 @@
+{
+  "question": "Determine whether each of the following relations are reflexive, symmetric and transitive:\n\n(iv) Relation R in the set $\\mathbf{Z}$ of all integers defined as\n\nR = {(x, y): x - y is an integer}",
+  "solution": "R = {(x, y): x - y is an integer}\n\nNow, for every x $\\in \\mathbf{Z}$, (x, x) $\\in$ R as x - x = 0 is an integer.\n\n$\\therefore$R is reflexive.\n\nNow, for every x, y $\\in \\mathbf{Z}$ if (x, y) $\\in$ R, then x - y is an integer.\n\n$\\Rightarrow$ -(x - y) is also an integer.\n\n$\\Rightarrow$ (y - x) is an integer.\n\n$\\therefore$ (y, x) $\\in$ R\n\n$\\therefore$R is symmetric.\n\nNow,\n\nLet (x, y) and (y, z) $\\in$ R, where x, y, z $\\in \\mathbf{Z}$.\n\n$\\Rightarrow$ (x - y) and (y - z) are integers.\n\n$\\Rightarrow$ x - z = (x - y) + (y - z) is an integer.\n\n$\\therefore$ (x, z) $\\in$ R\n\n$\\therefore$R is transitive.\n\nHence, R is reflexive, symmetric, and transitive."
+}

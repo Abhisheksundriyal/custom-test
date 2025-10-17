@@ -1,0 +1,4 @@
+{
+  "question": "Let $R$ be the relation in the set $\\mathbb{N}$ given by $R = \\{(a, b): a = b - 2, b > 6\\}$. Choose the correct answer.\n(A) $(2, 4) \\in R$\n(B) $(3, 8) \\in R$\n(C) $(6, 8) \\in R$\n(D) $(8, 7) \\in R$",
+  "solution": "$R = \\{(a, b): a = b - 2, b > 6\\}$\n\nNow, since $b > 6$, $(2, 4) \\notin R$\n\nAlso, as $3 \\neq 8 - 2$, $(3, 8) \\notin R$\n\nAnd, as $8 \\neq 7 - 2$\n\n$\\therefore (8, 7) \\notin R$\n\nNow, consider $(6, 8)$.\n\nWe have $8 > 6$ and also, $6 = 8 - 2$.\n\n$\\therefore (6, 8) \\in R$\n\nThe correct answer is C."
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined as $f(x) = 3x$. Choose the correct answer.\n(A) $f$ is one-one onto (B) $f$ is many-one onto\n(C) $f$ is one-one but not onto (D) $f$ is neither one-one nor onto",
+  "solution": "$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is defined as $f(x) = 3x$.\n\nLet $x, y \\in \\mathbb{R}$ such that $f(x) = f(y)$.\n\n$\\Rightarrow 3x = 3y$\n\n$\\Rightarrow x = y$\n\n$\\therefore f$ is one-one.\n\nAlso, for any real number $(y)$ in co-domain $\\mathbb{R}$, there exists $\\frac{y}{3}$ in $\\mathbb{R}$ such that\n\n$f\\left(\\frac{y}{3}\\right) = 3\\left(\\frac{y}{3}\\right) = y$.\n\n$\\therefore f$ is onto.\n\nHence, function $f$ is one-one and onto.\n\nThe correct answer is A."
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Let $f : X \\rightarrow Y$ be a function. Define a relation $R$ in $X$ given by $R = \\{(a, b) : f(a) = f(b)\\}$. Examine whether $R$ is an equivalence relation or not.",
+  "solution": "Solution\n\nFor every $a \\in X$, $(a, a) \\in R$, since $f(a) = f(a)$, showing that $R$ is reflexive.\n\nSimilarly, $(a, b) \\in R \\Rightarrow f(a) = f(b) \\Rightarrow f(b) = f(a) \\Rightarrow (b, a) \\in R$. Therefore, $R$ is symmetric.\n\nFurther, $(a, b) \\in R$ and $(b, c) \\in R \\Rightarrow f(a) = f(b)$ and $f(b) = f(c) \\Rightarrow f(a) = f(c) \\Rightarrow (a, c) \\in R$, which implies that $R$ is transitive.\n\nHence, $R$ is an equivalence relation."
+}

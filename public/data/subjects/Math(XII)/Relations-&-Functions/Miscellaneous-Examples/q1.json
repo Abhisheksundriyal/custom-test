@@ -1,0 +1,4 @@
+{
+  "question": "If $R_1$ and $R_2$ are equivalence relations in a set $A$, show that $R_1 \\cap R_2$ is also an equivalence relation.",
+  "solution": "Solution\n\nSince $R_1$ and $R_2$ are equivalence relations, $(a, a) \\in R_1$, and $(a, a) \\in R_2 \\ \\forall \\ a \\in A$.\n\nThis implies that $(a, a) \\in R_1 \\cap R_2$, $\\forall \\ a \\in A$, showing $R_1 \\cap R_2$ is reflexive.\n\nFurther, $(a, b) \\in R_1 \\cap R_2 \\Rightarrow (a, b) \\in R_1$ and $(a, b) \\in R_2 \\Rightarrow (b, a) \\in R_1$ and $(b, a) \\in R_2 \\Rightarrow (b, a) \\in R_1 \\cap R_2$, hence, $R_1 \\cap R_2$ is symmetric.\n\nSimilarly, $(a, b) \\in R_1 \\cap R_2$ and $(b, c) \\in R_1 \\cap R_2 \\Rightarrow (a, c) \\in R_1$ and $(a, c) \\in R_2$.\n\nThis shows that $R_1 \\cap R_2$ is transitive.\n\nThus, $R_1 \\cap R_2$ is an equivalence relation."
+}

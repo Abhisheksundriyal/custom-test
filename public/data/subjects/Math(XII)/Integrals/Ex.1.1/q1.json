@@ -1,0 +1,4 @@
+{
+  "question": "Integrate the function: $\\frac{(\\log x)^2}{x}$.",
+  "solution": "Step 1:\n\nLet $\\log x = t$.\n\nDifferentiate with respect to $x$:\n\n$\\frac{dt}{dx} = \\frac{1}{x}$\n\n$dt = \\frac{dx}{x}$\n\nSo, $dx = x\\,dt$\n\nStep 2:\n\nIntegrating the function:\n\n$\\int \\frac{(\\log x)^2}{x} dx$\n\nSubstitute: $\\log x = t$ and $dx = x\\,dt$\n\n$\\int \\frac{t^2}{x} \\cdot x\\,dt$\n\n$= \\int t^2\\,dt$\n\n$= \\frac{t^3}{3} + C$\n\nSubstitute back $t = \\log|x|$:\n\n$= \\frac{1}{3}(\\log|x|)^3 + C$"
+}

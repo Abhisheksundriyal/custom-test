@@ -1,0 +1,4 @@
+{
+  "question": "Integrate the function: $\\sin x \\cdot \\sin (\\cos x)$",
+  "solution": "Step 1:\n\nLet $\\cos x = t$\n\nDifferentiating both sides w.r.t. $x$\n\n$-\\sin x = \\frac{dt}{dx}$\n\n$dx = \\frac{dt}{-\\sin x}$\n\nStep 2:\n\nIntegrating function\n\n$\\int \\sin x . \\sin (\\cos x) . dx$\n\nPutting values of $t$ & $dt$\n\n$= \\int \\sin x . \\sin t . \\frac{dt}{-\\sin x}$\n\n$= -\\int \\sin t . dt$\n\n$= -(-\\cos t + C)$\n\n$= \\cos t + K$\n\nPutting $t = \\cos x$\n\n$= \\cos(\\cos x) + K$"
+}

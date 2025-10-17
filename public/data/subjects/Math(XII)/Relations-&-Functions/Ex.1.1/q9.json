@@ -1,0 +1,4 @@
+{
+  "question": "Check whether the relation R in $\\mathbf{R}$ defined as R = {(a, b): a $\\leq$ b$^3$} is reflexive, symmetric or transitive.",
+  "solution": "R = {(a, b): a $\\leq$ b$^3$}\n\nIt is observed that $(\\frac{1}{2}, \\frac{1}{2}) \\notin$ R as $\\frac{1}{2} > (\\frac{1}{2})^3 = \\frac{1}{8}$.\n\n$\\therefore$ R is not reflexive.\n\nNow,\n\n(1, 2) $\\in$ R (as 1 < 2$^3$ = 8)\n\nBut,\n\n(2, 1) $\\notin$ R (as 2$^3$ > 1)\n\n$\\therefore$ R is not symmetric.\n\nWe have\n\n($\\frac{3}{2}$, $\\frac{3}{2}$), ($\\frac{3}{2}$, $\\frac{6}{5}$) $\\in$ R as $\\frac{3}{2} < (\\frac{3}{2})^3$ and $\\frac{3}{2} < (\\frac{6}{5})^3$.\n\nBut\n\n($\\frac{3}{5}$, $\\frac{6}{5}$) $\\notin$ R as $\\frac{3}{5} > (\\frac{6}{5})^3$.\n\n$\\therefore$ R is not transitive.\n\nHence, R is neither reflexive, nor symmetric, nor transitive."
+}

@@ -1,0 +1,104 @@
+{
+    "Math(XII)": {
+        "Relations-&-Functions": {
+            "Ex.1.1-Examples": [
+                "q1.json",
+                "q2.json",
+                "q3.json",
+                "q4.json",
+                "q5.json",
+                "q6.json"
+            ],
+            "Ex.1.1": [
+                "q1.json",
+                "q2.json",
+                "q3.json",
+                "q4.json",
+                "q5.json",
+                "q6.json",
+                "q7.json",
+                "q8.json",
+                "q9.json",
+                "q10.json",
+                "q11.json",
+                "q12.json",
+                "q13.json",
+                "q14.json",
+                "q15.json",
+                "q16.json",
+                "q17.json",
+                "q18.json",
+                "q19.json",
+                "q20.json"
+            ],
+            "Ex.1.2-Examples": [
+                "q1.json",
+                "q2.json",
+                "q3.json",
+                "q4.json",
+                "q5.json",
+                "q6.json",
+                "q7.json",
+                "q8.json"
+            ],
+            "Ex.1.2": [
+                "q1.json",
+                "q2.json",
+                "q3.json",
+                "q4.json",
+                "q5.json",
+                "q6.json",
+                "q7.json",
+                "q8.json",
+                "q9.json",
+                "q10.json",
+                "q11.json",
+                "q12.json",
+                "q13.json",
+                "q14.json",
+                "q15.json",
+                "q16.json",
+                "q17.json"
+            ],
+            "Ex.1.3-Examples": [
+                "q1.json",
+                "q2.json",
+                "q3.json"
+            ],
+            "Miscellaneous-Examples": [
+                "q1.json",
+                "q2.json",
+                "q3.json",
+                "q4.json",
+                "q5.json",
+                "q6.json",
+                "q7.json",
+                "q8.json",
+                "q9.json"
+            ],
+            "Miscellaneous-Exercise": [
+                "q1.json",
+                "q2.json",
+                "q3.json",
+                "q4.json",
+                "q5.json",
+                "q6.json",
+                "q7.json"
+            ]
+        },
+        "Integrals": {
+            "Ex.1.1": [
+                "q1.json",
+                "q2.json"
+            ]
+        }
+    },
+    "Chemistry": {
+        "Chapter1": {
+            "Ex.1.1": [
+                "q1.json",
+                "q2.json"
+            ]
+        }
+    }
+}

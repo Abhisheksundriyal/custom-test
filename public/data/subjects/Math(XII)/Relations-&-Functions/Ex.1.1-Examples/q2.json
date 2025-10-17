@@ -1,0 +1,4 @@
+{
+  "question": "Let T be the set of all triangles in a plane with R a relation in T given by R = {(T$_1$, T$_2$) : T$_1$ is congruent to T$_2$}. Show that R is an an equivalence relation.",
+  "solution": "R is reflexive, since every triangle is congruent to itself. Further, (T$_1$, T$_2$) $\\in$ R $\\Rightarrow$ T$_1$ is congruent to T$_2$ $\\Rightarrow$ T$_2$ is congruent to T$_1$ $\\Rightarrow$ (T$_2$, T$_1$) $\\in$ R. Hence, R is symmetric. Moreover, (T$_1$, T$_2$), (T$_2$, T$_3$) $\\in$ R $\\Rightarrow$ T$_1$ is congruent to T$_2$ and T$_2$ is congruent to T$_3$ $\\Rightarrow$ T$_1$ is congruent to T$_3$ $\\Rightarrow$ (T$_1$, T$_3$) $\\in$ R. Therefore, R is an equivalence relation."
+}

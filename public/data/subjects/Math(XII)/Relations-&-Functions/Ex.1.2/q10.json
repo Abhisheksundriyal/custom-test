@@ -1,0 +1,4 @@
+{
+  "question": "Let $A = \\{1, 2, 3\\}$, $B = \\{4, 5, 6, 7\\}$ and let $f = \\{(1, 4), (2, 5), (3, 6)\\}$ be a function from $A$ to $B$. Show that $f$ is one-one.",
+  "solution": "It is given that $A = \\{1, 2, 3\\}$, $B = \\{4, 5, 6, 7\\}$.\n\n$f: A \\rightarrow B$ is defined as $f = \\{(1, 4), (2, 5), (3, 6)\\}$.\n\n$\\therefore f(1) = 4, f(2) = 5, f(3) = 6$\n\nIt is seen that the images of distinct elements of $A$ under $f$ are distinct.\n\nHence, function $f$ is one-one."
+}

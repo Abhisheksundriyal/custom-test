@@ -1,0 +1,4 @@
+{
+  "question": "Show that the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$, defined as $f(x)=x^2$, is neither one-one nor onto.",
+  "solution": "Since $f(-1) = 1 = f(1)$, $f$ is not one-one. \n\nAlso, the element $-2$ in the co-domain $\\mathbb{R}$ is not image of any element $x$ in the domain $\\mathbb{R}$ (Why?). Therefore $f$ is not onto."
+}

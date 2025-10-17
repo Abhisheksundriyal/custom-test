@@ -1,0 +1,4 @@
+{
+  "question": "Show that the relation R in the set {1, 2, 3} given by R = {(1, 2), (2, 1)} is symmetric but neither reflexive nor transitive.",
+  "solution": "Let A = {1, 2, 3}.\n\nA relation R on A is defined as R = {(1, 2), (2, 1)}.\n\nIt is seen that (1, 1), (2, 2), (3, 3) $\\notin$ R.\n\n$\\therefore$ R is not reflexive.\n\nNow, as (1, 2) $\\in$ R and (2, 1) $\\in$ R, then R is symmetric.\n\nNow, (1, 2) and (2, 1) $\\in$ R\n\nHowever,\n\n(1, 1) $\\notin$ R\n\n$\\therefore$ R is not transitive.\n\nHence, R is symmetric but neither reflexive nor transitive."
+}

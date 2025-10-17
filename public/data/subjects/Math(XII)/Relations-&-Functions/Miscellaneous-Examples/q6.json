@@ -1,0 +1,4 @@
+{
+  "question": "Let $A = \\{1, 2, 3\\}$. Then show that the number of relations containing $(1, 2)$ and $(2, 3)$ which are reflexive and transitive but not symmetric is three.",
+  "solution": "The smallest relation $R_1$ containing $(1, 2)$ and $(2, 3)$ which is reflexive and transitive but not symmetric is $\\{\\{(1, 1), (2, 2), (3, 3), (1, 2), (2, 3), (1, 3)\\}\\}$.\n\nNow, if we add the pair $(2, 1)$ to $R_1$ to get $R_2$, then the relation $R_2$ will be reflexive, transitive but not symmetric.\n\nSimilarly, we can obtain $R_3$ by adding $(3, 2)$ to $R_1$ to get the desired relation.\n\nHowever, we can not add two pairs $(2, 1), (3, 2)$ or single pair $(3, 1)$ to $R_1$ at a time, as by doing so, we will be forced to add the remaining pair in order to maintain transitivity and in the process, the relation will become symmetric also which is not required.\n\nThus, the total number of desired relations is three."
+}

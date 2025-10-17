@@ -1,0 +1,4 @@
+{
+  "question": "Prove that the Greatest Integer Function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ given by $f(x) = [x]$, is neither one-one nor onto, where $[x]$ denotes the greatest integer less than or equal to $x$.",
+  "solution": "$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is given by,\n$f(x) = [x]$\n\nIt is seen that $f(1.2) = [1.2] = 1$, $f(1.9) = [1.9] = 1$.\n\n$\\therefore f(1.2) = f(1.9)$, but $1.2 \\neq 1.9$.\n\n$\\therefore f$ is not one-one.\n\nNow, consider $0.7 \\in \\mathbb{R}$.\n\nIt is known that $f(x) = [x]$ is always an integer. Thus, there does not exist any element $x \\in \\mathbb{R}$ such that $f(x) = 0.7$.\n\n$\\therefore f$ is not onto.\n\nHence, the greatest integer function is neither one-one nor onto."
+}

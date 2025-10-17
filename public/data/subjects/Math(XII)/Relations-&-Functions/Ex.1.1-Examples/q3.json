@@ -1,0 +1,4 @@
+{
+  "question": "Let L be the set of all lines in a plane and R be the relation in L defined as R = {(L$_1$, L$_2$) : L$_1$ is perpendicular to L$_2$}. Show that R is symmetric but neither reflexive nor transitive.",
+  "solution": "R is not reflexive, as a line L$_1$ can not be perpendicular to itself, i.e., (L$_1$, L$_1$) $\\notin$ R.\n\nR is symmetric as (L$_1$, L$_2$) $\\in$ R\n\n$\\Rightarrow$ L$_1$ is perpendicular to L$_2$\n\n$\\Rightarrow$ L$_2$ is perpendicular to L$_1$\n\n$\\Rightarrow$ (L$_2$, L$_1$) $\\in$ R.\n\nR is not transitive. Indeed, if L$_1$ is perpendicular to L$_2$ and L$_2$ is perpendicular to L$_3$, then L$_1$ can never be perpendicular to L$_3$. In fact, L$_1$ is parallel to L$_3$, i.e., (L$_1$, L$_2$) $\\in$ R, (L$_2$, L$_3$) $\\in$ R but (L$_1$, L$_3$) $\\notin$ R."
+}

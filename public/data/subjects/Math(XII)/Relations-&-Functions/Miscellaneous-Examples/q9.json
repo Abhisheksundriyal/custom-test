@@ -1,0 +1,4 @@
+{
+  "question": "Consider a function $f : \\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$ given by $f(x) = \\sin x$ and $g : \\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$ given by $g(x) = \\cos x$. Show that $f$ and $g$ are one-one, but $f + g$ is not one-one.",
+  "solution": "Since for any two distinct elements $x_1$ and $x_2$ in $\\left[0, \\frac{\\pi}{2}\\right]$, $\\sin x_1 \\neq \\sin x_2$ and $\\cos x_1 \\neq \\cos x_2$, both $f$ and $g$ must be one-one.\n\nBut $(f + g) (0) = \\sin 0 + \\cos 0 = 0 + 1 = 1$ and $(f + g) \\left(\\frac{\\pi}{2}\\right) = \\sin \\frac{\\pi}{2} + \\cos \\frac{\\pi}{2} = 1 + 0 = 1$.\n\nTherefore, $f + g$ is not one-one."
+}

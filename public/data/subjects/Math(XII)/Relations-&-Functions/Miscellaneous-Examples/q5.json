@@ -1,0 +1,4 @@
+{
+  "question": "Find the number of all one-one functions from set $A = \\{1, 2, 3\\}$ to itself.",
+  "solution": "Solution\n\nOne-one function from $\\{1, 2, 3\\}$ to itself is simply a permutation on three symbols $1, 2, 3$.\n\nTherefore, total number of one-one maps from $\\{1, 2, 3\\}$ to itself is same as total number of permutations on three symbols $1, 2, 3$ which is $3! = 6$."
+}

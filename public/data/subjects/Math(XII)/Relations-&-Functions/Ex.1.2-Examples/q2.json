@@ -1,0 +1,4 @@
+{
+  "question": "Show that the function $f: \\mathbb{N} \\rightarrow \\mathbb{N}$, given by $f(x) = 2x$, is one-one but not onto.",
+  "solution": "The function $f$ is one-one, for $f(x_1) = f(x_2) \\Rightarrow 2x_1 = 2x_2 \\Rightarrow x_1 = x_2$. \n\nFurther, $f$ is not onto, as for $1 \\in \\mathbb{N}$, there does not exist any $x$ in $\\mathbb{N}$ such that $f(x) = 2x = 1$."
+}

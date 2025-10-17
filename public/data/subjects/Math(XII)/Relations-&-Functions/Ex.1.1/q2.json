@@ -1,0 +1,4 @@
+{
+  "question": "Determine whether each of the following relations are reflexive, symmetric and transitive:\n\n(ii) Relation R in the set $\\mathbf{N}$ of natural numbers defined as\n\nR = {(x, y): y = x + 5 and x < 4}",
+  "solution": "R = {(x, y): y = x + 5 and x < 4} = {(1, 6), (2, 7), (3, 8)}\n\nIt is seen that (1, 1) $\\notin$ R.\n\n$\\therefore$R is not reflexive.\n\n(1, 6) $\\in$ R\n\nBut,\n\n(1, 6) $\\notin$ R.\n\n$\\therefore$R is not symmetric.\n\nNow, since there is no pair in R such that (x, y) and (y, z) $\\in$ R, then (x, z) cannot belong to R.\n\n$\\therefore$ R is not transitive.\n\nHence, R is neither reflexive, nor symmetric, nor transitive."
+}

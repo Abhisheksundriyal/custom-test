@@ -1,0 +1,4 @@
+{
+  "question": "Determine whether each of the following relations are reflexive, symmetric and transitive:\n\n(iii) Relation R in the set A = {1, 2, 3, 4, 5, 6} as\n\nR = {(x, y): y is divisible by x}",
+  "solution": "A = {1, 2, 3, 4, 5, 6}\n\nR = {(x, y): y is divisible by x}\n\nWe know that any number (x) is divisible by itself.\n\n$\\Rightarrow$ (x, x) $\\in$ R\n\n$\\therefore$R is reflexive.\n\nNow,\n\n(2, 4) $\\in$ R [as 4 is divisible by 2]\n\nBut,\n\n(4, 2) $\\notin$ R. [as 2 is not divisible by 4]\n\n$\\therefore$R is not symmetric.\n\nLet (x, y), (y, z) $\\in$ R. Then, y is divisible by x and z is divisible by y.\n\n$\\therefore$z is divisible by x.\n\n$\\Rightarrow$ (x, z) $\\in$ R\n\n$\\therefore$R is transitive.\n\nHence, R is reflexive and transitive but not symmetric."
+}

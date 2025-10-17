@@ -1,0 +1,4 @@
+{
+  "question": "Consider the identity function $I_N : \\mathbb{N} \\rightarrow \\mathbb{N}$ defined as $I_N (x) = x \\ \\forall x \\in \\mathbb{N}$. Show that although $I_N$ is onto but $I_N + I_N : \\mathbb{N} \\rightarrow \\mathbb{N}$ defined as $(I_N + I_N) (x) = I_N (x) + I_N (x) = x + x = 2x$ is not onto.",
+  "solution": "Clearly $I_N$ is onto.\n\nBut $I_N + I_N$ is not onto, as we can find an element $3$ in the co-domain $\\mathbb{N}$ such that there does not exist any $x$ in the domain $\\mathbb{N}$ with $(I_N + I_N) (x) = 2x = 3$."
+}

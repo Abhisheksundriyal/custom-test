@@ -1,0 +1,4 @@
+{
+  "question": "Integrate the function: $\\frac{2x}{1 + x^2}$.",
+  "solution": "We need to find $\\int \\frac{2x}{1 + x^2} dx$.\n\nLet $1 + x^2 = t$.\n\nDifferentiating with respect to $x$, we get $2x = \\frac{dt}{dx}$,\n\nso $dx = \\frac{dt}{2x}$.\n\nThus, our equation becomes $\\int \\frac{2x}{1 + x^2} dx = \\int \\frac{2x}{t} \\cdot \\frac{dt}{2x}$.\n\nThis simplifies to $\\int \\frac{dt}{t}$.\n\nIntegrating, we get $\\log |t| + C$.\n\nPutting $t = 1 + x^2$ back, we have $\\log |1 + x^2| + C$.\n\nSince $1 + x^2$ is always positive, we can write the final answer as $\\log (1 + x^2) + C$."
+}

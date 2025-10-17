@@ -1,0 +1,4 @@
+{
+  "question": "Let $R$ be a relation on the set $A$ of ordered pairs of positive integers defined by $(x,y)\\ R\\ (u,v)$ if and only if $xv=yu$. Show that $R$ is an equivalence relation.",
+  "solution": "Solution\n\nClearly, $(x, y)\\ R\\ (x, y)$, $\\forall\\ (x, y) \\in A$, since $xy = yx$. This shows that $R$ is reflexive.\n\nFurther, $(x, y)\\ R\\ (u, v) \\Rightarrow xv = yu \\Rightarrow uy = vx$ and hence $(u, v)\\ R\\ (x, y)$. This shows that $R$ is symmetric.\n\nSimilarly, $(x, y)\\ R\\ (u, v)$ and $(u, v)\\ R\\ (a, b) \\Rightarrow xv = yu$ and $ub = va$.\n\n$\\Rightarrow xv = yu \\Rightarrow \\frac{x}{y} = \\frac{u}{v}$.\n\nAnd $ub = va \\Rightarrow \\frac{u}{v} = \\frac{a}{b}$.\n\nTherefore, $\\frac{x}{y} = \\frac{a}{b} \\Rightarrow xb = ya$ and hence $(x, y)\\ R\\ (a, b)$.\n\nThus, $R$ is transitive.\n\nThus, $R$ is an equivalence relation."
+}

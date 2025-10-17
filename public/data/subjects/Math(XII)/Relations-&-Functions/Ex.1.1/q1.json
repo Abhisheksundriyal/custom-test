@@ -1,0 +1,4 @@
+{
+  "question": "Determine whether each of the following relations are reflexive, symmetric and transitive:\n\n(i) Relation R in the set A = {1, 2, 3...13, 14} defined as\n\nR = {(x, y): 3x - y = 0}",
+  "solution": "A = {1, 2, 3 ... 13, 14}\n\nR = {(x, y): 3x - y = 0}\n\n$\\therefore$ R = {(1, 3), (2, 6), (3, 9), (4, 12)}\n\nR is not reflexive since (1, 1), (2, 2) ... (14, 14) $\\notin$ R.\n\nAlso, R is not symmetric as (1, 3) $\\in$ R, but (3, 1) $\\notin$ R. [3(3) - 1 $\\ne$ 0]\n\nAlso, R is not transitive as (1, 3), (3, 9) $\\in$ R, but (1, 9) $\\notin$ R.\n\n[3(1) - 9 $\\ne$ 0]\n\nHence, R is neither reflexive, nor symmetric, nor transitive."
+}

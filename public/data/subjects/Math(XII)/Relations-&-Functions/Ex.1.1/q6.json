@@ -1,0 +1,4 @@
+{
+  "question": "Show that the relation R in the set $\\mathbf{R}$ of real numbers, defined as R = {(a, b): a $\\leq$ b$^2$} is neither reflexive nor symmetric nor transitive.",
+  "solution": "R = {(a, b): a $\\leq$ b$^2$}\n\nIt can be observed that $(\\frac{1}{2}, \\frac{1}{2}) \\notin$ R, since $\\frac{1}{2} > (\\frac{1}{2})^2 = \\frac{1}{4}$.\n\n$\\therefore$R is not reflexive.\n\nNow, (1, 4) $\\in$ R as 1 < 4$^2$\n\nBut, 4 is not less than 1$^2$.\n\n$\\therefore$(4, 1) $\\notin$ R\n\n$\\therefore$R is not symmetric.\n\nNow,\n\n(3, 2), (2, 1.5) $\\in$ R\n\n(as 3 < 2$^2$ = 4 and 2 < (1.5)$^2$ = 2.25)\n\nBut, 3 > (1.5)$^2$ = 2.25\n\n$\\therefore$(3, 1.5) $\\notin$ R\n\n$\\therefore$ R is not transitive.\n\nHence, R is neither reflexive, nor symmetric, nor transitive."
+}

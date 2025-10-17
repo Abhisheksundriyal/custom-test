@@ -1,0 +1,4 @@
+{
+  "question": "Show that the relation R in the set A of all the books in a library of a college, given by R = {(x, y): x and y have same number of pages} is an equivalence relation.",
+  "solution": "Set A is the set of all books in the library of a college.\n\nR = {(x, y): x and y have the same number of pages}\n\nNow, R is reflexive since (x, x) $\\in$ R as x and x has the same number of pages.\n\nLet (x, y) $\\in$ R $\\Rightarrow$ x and y have the same number of pages.\n\n$\\Rightarrow$ y and x have the same number of pages.\n\n$\\Rightarrow$ (y, x) $\\in$ R\n\n$\\therefore$R is symmetric.\n\nNow, let (x, y) $\\in$ R and (y, z) $\\in$ R.\n\n$\\Rightarrow$ x and y have the same number of pages and y and z have the same number of pages.\n\n$\\Rightarrow$ x and z have the same number of pages.\n\n$\\Rightarrow$ (x, z) $\\in$ R\n\n$\\therefore$R is transitive.\n\nHence, R is an equivalence relation."
+}

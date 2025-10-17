@@ -1,0 +1,4 @@
+{
+  "question": "Let $f: \\mathbb{N} \\rightarrow Y$ be a function defined as $f(x) = 4x + 3$, where, $Y = \\{y \\in \\mathbb{N} : y = 4x + 3 \\text{ for some } x \\in \\mathbb{N}\\}$. Show that $f$ is invertible. Find the inverse.",
+  "solution": "Consider an arbitrary element $y$ of $Y$.\n\nBy the definition of $Y$, $y = 4x + 3$, for some $x$ in the domain $\\mathbb{N}$.\n\nThis shows that $x = \\frac{(y-3)}{4}$.\n\nDefine $g : Y \\rightarrow \\mathbb{N}$ by $g(y) = \\frac{(y-3)}{4}$.\n\nNow, $gof(x) = g(f(x)) = g(4x + 3) = \\frac{(4x+3-3)}{4} = x$.\n\nAnd $fog(y) = f(g(y)) = f\\left(\\frac{(y-3)}{4}\\right) = 4\\left(\\frac{y-3}{4}\\right) + 3 = y - 3 + 3 = y$.\n\nThis shows that $gof = I_N$ and $fog = I_Y$, which implies that $f$ is invertible and $g$ is the inverse of $f$."
+}

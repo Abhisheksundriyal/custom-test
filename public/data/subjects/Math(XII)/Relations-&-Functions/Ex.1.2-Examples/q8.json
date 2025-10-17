@@ -1,0 +1,4 @@
+{
+  "question": "Show that a one-one function $f: \\{1, 2, 3\\} \\rightarrow \\{1, 2, 3\\}$ must be onto.",
+  "solution": "Since $f$ is one-one, three elements of $\\{1, 2, 3\\}$ must be taken to $3$ different elements of the co-domain $\\{1, 2, 3\\}$ under $f$. Hence, $f$ has to be onto."
+}

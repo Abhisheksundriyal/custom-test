@@ -1,0 +1,4 @@
+{
+  "question": "Let $f : \\{2, 3, 4, 5\\} \\rightarrow \\{3, 4, 5, 9\\}$ and $g : \\{3, 4, 5, 9\\} \\rightarrow \\{7, 11, 15\\}$ be functions defined as $f(2) = 3, f(3) = 4, f(4) = f(5) = 5$ and $g(3) = g(4) = 7$ and $g(5) = g(9) = 11$. Find $gof$.",
+  "solution": "We have $gof(2) = g(f(2)) = g(3) = 7$.\n\n$gof(3) = g(f(3)) = g(4) = 7$.\n\n$gof(4) = g(f(4)) = g(5) = 11$.\n\nAnd $gof(5) = g(f(5)) = g(5) = 11$."
+}

@@ -1,0 +1,4 @@
+{
+  "question": "In each of the following cases, state whether the function is one-one, onto or bijective.\nJustify your answer.\n(i) $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x) = 3 - 4x$",
+  "solution": "(i) $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is defined as $f(x) = 3 - 4x$.\n\nLet $x_1, x_2 \\in \\mathbb{R}$ such that $f(x_1) = f(x_2)$.\n\n$\\Rightarrow 3 - 4x_1 = 3 - 4x_2$\n\n$\\Rightarrow -4x_1 = -4x_2$\n\n$\\Rightarrow x_1 = x_2$\n\n$\\therefore f$ is one-one.\n\nFor any real number $(y)$ in $\\mathbb{R}$, there exists $\\frac{3 - y}{4}$ in $\\mathbb{R}$ such that\n\n$f\\left(\\frac{3 - y}{4}\\right) = 3 - 4\\left(\\frac{3 - y}{4}\\right) = y$.\n\n$\\therefore f$ is onto.\n\nHence, $f$ is bijective."
+}

@@ -1,0 +1,4 @@
+{
+  "question": "Show that an onto function $f: \\{1, 2, 3\\} \\rightarrow \\{1, 2, 3\\}$ is always one-one.",
+  "solution": "Suppose $f$ is not one-one. Then there exists two elements, say $1$ and $2$ in the domain whose image in the co-domain is same. Also, the image of $3$ under $f$ can be only one element. Therefore, the range set can have at the most two elements of the co-domain $\\{1, 2, 3\\}$, showing that $f$ is not onto, a contradiction. Hence, $f$ must be one-one."
+}

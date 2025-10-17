@@ -1,0 +1,4 @@
+{
+  "question": "Show that the Modulus Function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ given by $f(x)=|x|$, is neither one-one nor onto, where $|x|$ is $x$, if $x$ is positive or $0$ and $|x|$ is $-x$, if $x$ is negative.",
+  "solution": "$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is given by,\n$f(x)=|x|= \\begin{cases}x,&\\text{if } x\\ge 0\\\\-x,&\\text{if } x<0\\end{cases}$\n\nIt is seen that $f(-1) = |-1| = 1$, $f(1) = |1| = 1$.\n\n$\\therefore f(-1) = f(1)$, but $-1 \\neq 1$.\n\n$\\therefore f$ is not one-one.\n\nNow, consider $-1 \\in \\mathbb{R}$.\n\nIt is known that $f(x) = |x|$ is always non-negative. Thus, there does not exist any element $x$ in domain $\\mathbb{R}$ such that $f(x) = |x| = -1$.\n\n$\\therefore f$ is not onto.\n\nHence, the modulus function is neither one-one nor onto."
+}

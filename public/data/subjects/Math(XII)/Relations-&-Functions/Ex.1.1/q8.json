@@ -1,0 +1,4 @@
+{
+  "question": "Show that the relation R in $\\mathbf{R}$ defined as R = {(a, b): a $\\leq$ b}, is reflexive and transitive but not symmetric.",
+  "solution": "R = {(a, b): a $\\leq$ b}\n\nClearly (a, a) $\\in$ R as a = a.\n\n$\\therefore$R is reflexive.\n\nNow,\n\n(2, 4) $\\in$ R (as 2 < 4)\n\nBut, (4, 2) $\\notin$ R as 4 is greater than 2.\n\n$\\therefore$ R is not symmetric.\n\nNow, let (a, b), (b, c) $\\in$ R.\n\nThen,\n\na $\\leq$ b and b $\\leq$ c\n\n$\\Rightarrow$ a $\\leq$ c\n\n$\\Rightarrow$ (a, c) $\\in$ R.\n\n$\\therefore$ R is transitive.\n\nHence, R is reflexive and transitive but not symmetric."
+}

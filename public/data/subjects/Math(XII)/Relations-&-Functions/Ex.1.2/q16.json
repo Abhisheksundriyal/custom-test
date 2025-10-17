@@ -1,0 +1,4 @@
+{
+  "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined as $f(x) = x^4$. Choose the correct answer.\n(A) $f$ is one-one onto\n(B) $f$ is many-one onto\n(C) $f$ is one-one but not onto\n(D) $f$ is neither one-one nor onto",
+  "solution": "$f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is defined as $f(x) = x^4$.\n\nLet $x, y \\in \\mathbb{R}$ such that $f(x) = f(y)$.\n\n$\\Rightarrow x^4 = y^4$\n\n$\\Rightarrow x = \\pm y$\n\n$\\therefore f(x_1) = f(x_2)$ does not imply that $x_1 = x_2$.\n\nFor instance,\n\n$f(1) = f(-1) = 1$\n\n$\\therefore f$ is not one-one.\n\nConsider an element $2$ in co-domain $\\mathbb{R}$. It is clear that there does not exist any $x$ in domain $\\mathbb{R}$ such that $f(x) = 2$.\n\n$\\therefore f$ is not onto.\n\nHence, function $f$ is neither one-one nor onto.\n\nThe correct answer is D."
+}
